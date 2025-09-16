@@ -6,6 +6,10 @@ public class ApplicationUser : IdentityUser
 {
     public string? ManagerId { get; set; }
     
+    public string? EmployeeNumber { get; set; }
+    
+    public string? FullName { get; set; }
+    
     // Navigation property for manager
     public virtual ApplicationUser? Manager { get; set; }
     

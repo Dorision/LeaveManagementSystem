@@ -36,6 +36,10 @@ public class ErrorHandlingMiddleware
         var statusCode = HttpStatusCode.InternalServerError;
         var result = string.Empty;
 
+        // Log the full exception details including inner exceptions
+        _logger.LogError(exception, "An error occurred with inner exception: {InnerException}", 
+            exception.InnerException?.ToString() ?? "No inner exception");
+
         switch (exception)
         {
             case InvalidOperationException:

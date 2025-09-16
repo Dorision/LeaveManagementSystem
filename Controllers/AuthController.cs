@@ -29,7 +29,7 @@ public class AuthController : ControllerBase
         return Ok(result);
     }
 
-    [HttpPost("register")]
+/*     [HttpPost("register")]
     [AllowAnonymous]
     public async Task<ActionResult<AuthResponseDto>> Register(RegisterDto model)
     {
@@ -40,5 +40,5 @@ public class AuthController : ControllerBase
         }
 
         return Ok(result);
-    }
+    } */
 }

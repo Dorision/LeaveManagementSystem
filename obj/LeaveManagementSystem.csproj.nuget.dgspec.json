@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dorision Ngoepe\\OneDrive - Rosebank College\\Documents\\Leave_System\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {}
+    "C:\\Projects\\Workspaces\\Leave_System-main\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dorision Ngoepe\\OneDrive - Rosebank College\\Documents\\Leave_System\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {
+    "C:\\Projects\\Workspaces\\Leave_System-main\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dorision Ngoepe\\OneDrive - Rosebank College\\Documents\\Leave_System\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
+        "projectUniqueName": "C:\\Projects\\Workspaces\\Leave_System-main\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
         "projectName": "LeaveManagementSystem",
-        "projectPath": "C:\\Users\\Dorision Ngoepe\\OneDrive - Rosebank College\\Documents\\Leave_System\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
+        "projectPath": "C:\\Projects\\Workspaces\\Leave_System-main\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Dorision Ngoepe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dorision Ngoepe\\OneDrive - Rosebank College\\Documents\\Leave_System\\LeaveManagementSystem\\obj\\",
+        "outputPath": "C:\\Projects\\Workspaces\\Leave_System-main\\LeaveManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dorision Ngoepe\\AppData\\Roaming\\NuGet\\NuGet.Config"

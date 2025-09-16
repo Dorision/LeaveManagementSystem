@@ -107,9 +107,10 @@ if (app.Environment.IsDevelopment())
             var context = services.GetRequiredService<ApplicationDbContext>();
             context.Database.Migrate();
 
-            // Seed roles, admin user, and public holidays
+            // Seed roles, admin user, public holidays, and employees
             await DbSeeder.SeedRolesAndAdminAsync(services);
             await DbSeeder.SeedPublicHolidaysAsync(services);
+            await DbSeeder.SeedEmployeesAsync(services);
         }
         catch (Exception ex)
         {
